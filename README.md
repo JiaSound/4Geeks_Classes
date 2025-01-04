@@ -24,4 +24,3 @@ mkdir -p data/{raw,baking,final}
 touch mytext.txt
 mano mytxt
 ```
-
