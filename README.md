@@ -10,7 +10,7 @@ echo -e ".venv\n.env" > .gitignore
 python -m venv .venv
 source .venv/bin/activate
 ```
--Install Python libraries to work with Jupyter, pandas, and matplotlib
+- Install Python libraries to work with Jupyter, pandas, and matplotlib
 ```bash
 python -m pip install ipykernel nbformat pandas seaborn
 ```
@@ -22,5 +22,5 @@ mkdir -p data/{raw,baking,final}
 - Edit an Archive
 ```bash
 touch mytext.txt
-mano mytxt
+nano mytxt
 ```
