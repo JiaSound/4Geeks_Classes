@@ -16,11 +16,15 @@ python -m pip install ipykernel nbformat pandas seaborn
 ```
 - Create Work Folders
 ```bash
-mkdir notebooks src app docs
+mkdir notebooks src app docs data
 mkdir -p data/{raw,baking,final}
 ```
 - Edit an Archive
 ```bash
 touch mytext.txt
 nano mytxt
+```
+- Create a New Branch
+```bash
+git checkout -b BranchName
 ```
