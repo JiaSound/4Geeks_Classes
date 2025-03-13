@@ -1,0 +1,20 @@
+<html>
+    <title>
+        iris predictor
+    </title>
+
+    <body>
+        <h2>introduce the values</h2>
+        <form action = "/" method = "post">
+            petal width <input type="number" name="val1" required> <br> <br>
+            petal length <input type="number" name="val2" required> <br> <br>
+            sepal width <input type="number" name="val1" required> <br> <br>
+            sepal length <input type="number" name="val2" required> <br> <br>
+            <input type = "submit" value="predict">
+        </form>
+        {% if prediction != None % }
+            <h3>prediction:    {{prediction}}</h3>
+        {% endif %}
+
+    </body>
+</html>
